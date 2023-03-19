@@ -15,7 +15,9 @@
 # .+web\.business\.image url reject
 ^https?:\/\/.+\.douyinpic\.com\/(obj|img)\/webcast\.image\/.+  url reject
 
-^http:\/\/.+\.byteimg\.com\/web\.business\.image\/.+  tplv reject
+^https?:\/\/.+\.pglstatp-toutiao\.com\/.+\/.jpg  url reject
+
+^http:\/\/.+\.byteimg\.com\/web\.business\.image\/.+\/image?\/.+ url reject
 ^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
 ^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
 ^https?:\/\/.+novelapp\.fqnovelvod\.com\/.+\/video\/.+ url reject
