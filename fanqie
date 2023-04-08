@@ -17,7 +17,7 @@
 ^https?:\/\/.+\be-pack\.pglstatp-toutiao\.com\/.+\/video\/.+ url reject
 ^https?:\/\/.webcast-sign\.douyinpic\.com\/.+\/image\/.+ url reject
 ^https?:\/\/.+\.pglstatp-toutiao\.com\/.+ url reject
-^https?:\/\/.+webcast-sign\.douyinpic\.com\/webcast-cover\/.+\/.+ url reject
+^https?:\/\/.+sign\.douyinpic\.com\/webcast-cover\/.+\/.+ url reject
 ^https?:\/\/+\webcast-sign\.douyinpic\.com\/webcast-cover\/.+ url reject
 ^https?:\/\/.+\be-pack-\.pglstatp-toutiao\.com\/.+\/video\/tos\/cn\/.+\/.mp4\/.+ url reject
 ^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/union\/endcard\/(get_ads|stats|settings)\/ url reject
