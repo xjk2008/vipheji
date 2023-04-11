@@ -22,6 +22,7 @@
 ^https?:\/\/.+\be-pack-\.pglstatp-toutiao\.com\/.+\/video\/tos\/cn\/.+\/.mp4\/.+ url reject
 ^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/union\/endcard\/(get_ads|stats|settings)\/ url reject
 https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/.+ url reject
+^http:\/\/·+\/.+douyincdn\.com\/stage\/·+\.+ url reject
 
 ^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
 ^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
