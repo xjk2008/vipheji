@@ -1,5 +1,5 @@
 
-hostname = sdk.alibaba.com.ailbaba.me, p.du.163.com,  ap*.intsig.net, baimiao.uzero.cn,xluser-ssl.xunlei.com,testflight.apple.com,spclient.wg.spotify.com,*.wtzw.com,vira.llsapp.com, m.iqiyi.com, z1.m1907.cn, m.youku.com, m.v.qq.com, m.bilibili.com,duckduckgo.com
+hostname = sdk.alibaba.com.ailbaba.me, p.du.163.com, newdrugs.dxy.cn,ap*.intsig.net, baimiao.uzero.cn,xluser-ssl.xunlei.com,testflight.apple.com,spclient.wg.spotify.com,*.wtzw.com,vira.llsapp.com, m.iqiyi.com, z1.m1907.cn, m.youku.com, m.v.qq.com, m.bilibili.com,duckduckgo.com
 
 
 # 大师兄影视去开屏广告     sdk.alibaba.com.ailbaba.me
@@ -13,6 +13,8 @@ hostname = sdk.alibaba.com.ailbaba.me, p.du.163.com,  ap*.intsig.net, baimiao.uz
 # 白描-OCR 文字识别与文件扫描   解锁黄金会员    baimiao.uzero.cn
 ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/baimiao.js
 
+# 用药助手解锁专业版 (By Primovist)
+^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body NobyDa/Surge/JS/yyzs.js
 
 # 迅雷不限速     xluser-ssl.xunlei.com
 https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xunlei.js
