@@ -14,7 +14,7 @@ hostname = sdk.alibaba.com.ailbaba.me, p.du.163.com, newdrugs.dxy.cn,ap*.intsig.
 ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/baimiao.js
 
 # 用药助手解锁专业版 (By Primovist)
-^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body NobyDa/Surge/JS/yyzs.js
+^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body https://raw.githubusercontent.com/xjk2008/vipheji/main/yyzs.js
 
 # 迅雷不限速     xluser-ssl.xunlei.com
 https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xunlei.js
