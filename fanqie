@@ -24,6 +24,7 @@
 https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/.+ url reject
 ^http:\/\/·+\/.+douyincdn\.com\/stage\/·+\.+ url reject
 ^http:\/\/pull-flv·+\.douyincdn\.com\/stage\/·+\.+ url reject
+^http:\/\/pull·+\.douyincdn\.com\/stage\/·+\.+ url reject
 ^http:\/\/·+l26\.douyincdn\.com\/third\/·+\.+ url reject
 ^http:\/\/pull-flv·+\.douyincdn\.com\/third\/·+\.+ url reject
 
@@ -32,4 +33,4 @@ https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/.+ url reject
 ^https?:\/\/.+novelapp\.fqnovelvod\.com\/.+\/video\/.+ url reject
 ^http:\/\/·+\.douyincdn\.com\/stage\/·+\.flv url reject
 ^http:\/\/·+\.douyincdn\.com\/third\/·+\.flv url reject
-hostname = *.pangolin-sdk-toutiao,pull-flv-*.douyincdn.com,*.douyinpic.com,be-pack-sign.pglstatp-toutiao.com,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pglstatp-toutiao.com.*,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com,be-pack.pglstatp-toutiao.corejec,v6-novelfm.novelfmvod.com,
+hostname = *.pangolin-sdk-toutiao,pull-flv-*.douyincdn.com,pull*.douyincdn.com,*.douyinpic.com,be-pack-sign.pglstatp-toutiao.com,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pglstatp-toutiao.com.*,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com,be-pack.pglstatp-toutiao.corejec,v6-novelfm.novelfmvod.com,
