@@ -23,9 +23,9 @@
 ^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/union\/endcard\/(get_ads|stats|settings)\/ url reject
 https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/.+ url reject
 ^http:\/\/·+\/.+douyincdn\.com\/stage\/·+\.+ url reject
-^http:\/\/·+l13\.douyincdn\.com\/stage\/·+\.+ url reject
+^http:\/\/pull-flv·+\.douyincdn\.com\/stage\/·+\.+ url reject
 ^http:\/\/·+l26\.douyincdn\.com\/third\/·+\.+ url reject
-^http:\/\/·+16\.douyincdn\.com\/third\/·+\.+ url reject
+^http:\/\/pull-flv·+\.douyincdn\.com\/third\/·+\.+ url reject
 
 ^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
 ^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
