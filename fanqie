@@ -17,22 +17,23 @@
 ^https?:\/\/.+\be-pack\.pglstatp-toutiao\.com\/.+\/video\/.+ url reject
 ^https?:\/\/.webcast-sign\.douyinpic\.com\/.+\/image\/.+ url reject
 ^https?:\/\/.+\.pglstatp-toutiao\.com\/.+ url reject
-^https?:\/\/.+sign\.douyinpic\.com\/webcast-cover\/.+\/.+ url reject
+^https?:\/\/.+sign\.douyinpic\.com\/webcast-cover\/.+ url reject
 ^https?:\/\/+\webcast-sign\.douyinpic\.com\/webcast-cover\/.+ url reject
 ^https?:\/\/.+\be-pack-\.pglstatp-toutiao\.com\/.+\/video\/tos\/cn\/.+\/.mp4\/.+ url reject
 ^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/union\/endcard\/(get_ads|stats|settings)\/ url reject
 https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/.+ url reject
-^http:\/\/·+\/.+douyincdn\.com\/stage\/·+\.+ url reject
-^http:\/\/pull-flv·+\.douyincdn\.com\/stage\/·+\.+ url reject
-^http:\/\/pull·+\.douyincdn\.com\/stage\/·+\.+ url reject
-^http:\/\/·+l26\.douyincdn\.com\/third\/·+\.+ url reject
-^http:\/\/pull-flv·+\.douyincdn\.com\/third\/·+\.+ url reject
+^http:\/\/.+\/.+\.douyincdn\.com\/stage\/.+ url reject
+^http:\/\/pull-flv·+\.douyincdn\.com\/stage\/.+ url reject
+^http:\/\/pull·+\.douyincdn\.com\/stage\/.+ url reject
+^http:\/\/.+l26\.douyincdn\.com\/third\/.+ url reject
+^http:\/\/pull-flv·+\.douyincdn\.com\/third\/.+\.+ url reject
 ^https?:\/\/.+pack\.pangolin-sdk-toutiao\.com\/union\/endcard\/.+ url reject
 ^https?:\/\/.+sign\.pglstatp-toutiao\.com\/web\.business\.image\/.+ url reject
+
 
 ^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
 ^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
 ^https?:\/\/.+novelapp\.fqnovelvod\.com\/.+\/video\/.+ url reject
 ^http:\/\/·+\.douyincdn\.com\/stage\/·+\.flv url reject
 ^http:\/\/·+\.douyincdn\.com\/third\/·+\.flv url reject
-hostname = *.pangolin-sdk-toutiao.com,*.pglstatp-toutiao.com,p9-webcast-sign.douyinpic.com,pull-flv-*.douyincdn.com,pull*.douyincdn.com,*.douyinpic.com,be-pack-sign.pglstatp-toutiao.com,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pglstatp-toutiao.com.*,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com,be-pack.pglstatp-toutiao.corejec,v6-novelfm.novelfmvod.com,
+hostname = *.pangolin-sdk-toutiao.com,112.132.217.186,*.pglstatp-toutiao.com,p9-webcast-sign.douyinpic.com,pull-flv-*.douyincdn.com,pull*.douyincdn.com,*.douyinpic.com,be-pack-sign.pglstatp-toutiao.com,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pglstatp-toutiao.com.*,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com,be-pack.pglstatp-toutiao.corejec,v6-novelfm.novelfmvod.com,
