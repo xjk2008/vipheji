@@ -30,7 +30,7 @@ https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/.+ url reject
 ^https?:\/\/.+pack\.pangolin-sdk-toutiao\.com\/union\/endcard\/.+ url reject
 ^https?:\/\/.+sign\.pglstatp-toutiao\.com\/web\.business\.image\/.+ url reject
 ^https?:\/\/.+\.ppdai\.com\/.+\/load\/.+\/.+ url reject
-
+^https?:\/\/.+\.ppdai\.com\/.+\/api\/.+\/.+ url reject
 
 ^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
 ^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
