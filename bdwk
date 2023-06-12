@@ -14,9 +14,10 @@
 // @namespace https://greasyfork.org/users/718868
 // ==/UserScript==
  
-// 文档净化(function ) 
+// 文档净化
+function（）{
   'use strict';
- 
+ }
   // 注册个 MutationObserver，根治各种垃圾弹窗
   let count = 0;
   const blackListSelector = [
