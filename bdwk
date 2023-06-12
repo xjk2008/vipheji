@@ -15,7 +15,7 @@
 // ==/UserScript==
  
 // 文档净化
-(function () {
+//(function () {
   'use strict';
  
   // 注册个 MutationObserver，根治各种垃圾弹窗
