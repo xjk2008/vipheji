@@ -13,6 +13,8 @@
 ^http:\/\/.+\.byteimg\.com\/ad-app-package url reject
 ^http:\/\/.+\.byteimg\.com\/web\.business\.image url reject
 # .+web\.business\.image url reject
+^https:\/\/images\.pinduoduo\.com\/mrk\/ url reject-dict
+
 
 ^https?:\/\/.+\be-pack\.pglstatp-toutiao\.com\/.+\/video\/.+ url reject
 ^https?:\/\/.webcast-sign\.douyinpic\.com\/.+\/image\/.+ url reject
