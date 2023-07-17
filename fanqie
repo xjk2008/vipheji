@@ -36,6 +36,8 @@ https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/.+ url reject
 ^https?:\/\/.+webcast\.douyinpic\.com\/img\/.+ url reject
 ^https?:\/\/.thirdwx\.qlogo\.cn\/.+\/mmopen\/.+ url reject
 ^https?:\/\/.+dpa\.byteimg\.com\/.+ url reject
+^https:\/\/ld\.ppdai\.com\/v3\/loan\/ url reject-dict
+
 
 ^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
 ^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
