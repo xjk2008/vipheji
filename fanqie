@@ -23,7 +23,7 @@
 ^https?:\/\/+\webcast-sign\.douyinpic\.com\/webcast-cover\/.+ url reject
 ^https?:\/\/.+\be-pack-\.pglstatp-toutiao\.com\/.+\/video\/tos\/cn\/.+\/.mp4\/.+ url reject
 ^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/union\/endcard\/(get_ads|stats|settings)\/ url reject
-^https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/tos\/cn\/.+ url reject
+#^https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/tos\/cn\/.+ url reject
 ^http?:\/\/.+\/.+\.douyincdn\.com\/stage\/.+ url reject
 ^http?:\/\/pull-flv·+\.douyincdn\.com\/stage\/.+ url reject
 ^http?:\/\/.+\.douyincdn\.com\/stage\/.+ url reject
