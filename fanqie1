@@ -1,0 +1,48 @@
+# 番茄小说去章末广告
+^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/(get_ads|stats|settings)\/ url reject
+^https?:\/\/.+\.pglstatp-toutiao\.com\/.+\/toutiao\.mp4  url reject
+^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/(ad-app-package|ad)\/.+ url reject
+^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/web\.business\.image\/.+  url reject
+^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/obj\/ad-pattern\/renderer url reject
+^https?:\/\/gurd\.snssdk\.com\/src\/server\/v3\/package url reject
+^https?:\/\/.+\.byteimg.com/tos-cn-i-1yzifmftcy\/(.+)-jpeg\.jpeg  url reject
+^https?:\/\/.+\.pstatp\.com\/obj\/mosaic-legacy\/.+\?from\=ad  url reject
+^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track_log\/src\/.+  url reject
+^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 url reject
+^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ url reject
+^http:\/\/.+\.byteimg\.com\/ad-app-package url reject
+^http:\/\/.+\.byteimg\.com\/web\.business\.image url reject
+# .+web\.business\.image url reject
+^https:\/\/images\.pinduoduo\.com\/mrk\/ url reject-dict
+
+
+^https?:\/\/.+\be-pack\.pglstatp-toutiao\.com\/.+\/video\/.+ url reject
+^https?:\/\/.webcast-sign\.douyinpic\.com\/.+\/image\/.+ url reject
+^https?:\/\/.+\.pglstatp-toutiao\.com\/.+ url reject
+^https?:\/\/.+sign\.douyinpic\.com\/webcast-cover\/.+ url reject
+^https?:\/\/+\webcast-sign\.douyinpic\.com\/webcast-cover\/.+ url reject
+^https?:\/\/.+\be-pack-\.pglstatp-toutiao\.com\/.+\/video\/tos\/cn\/.+\/.mp4\/.+ url reject
+^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/union\/endcard\/(get_ads|stats|settings)\/ url reject
+^https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/tos\/cn\/tos-cn-ve-51\/.+ url reject
+^https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/tos\/cn\/tos-cn-ve-192\/.+ url reject
+^http?:\/\/.+\/.+\.douyincdn\.com\/stage\/.+ url reject
+^http?:\/\/pull-flv·+\.douyincdn\.com\/stage\/.+ url reject
+^http?:\/\/.+\.douyincdn\.com\/stage\/.+ url reject
+^http?:\/\/.+\.douyincdn\.com\/third\/.+ url reject
+^http?:\/\/pull-flv·+\.douyincdn\.com\/third\/.+\.+ url reject
+^https?:\/\/.+pack\.pangolin-sdk-toutiao\.com\/union\/endcard\/.+ url reject
+^https?:\/\/.+sign\.pglstatp-toutiao\.com\/web\.business\.image\/.+ url reject
+^https?:\/\/.+\.ppdai\.com\/.+\/load\/.+\/.+ url reject
+^https?:\/\/.+\.ppdai\.com\/.+\/api\/.+\/.+ url reject
+^https?:\/\/.+webcast\.douyinpic\.com\/img\/.+ url reject
+^https?:\/\/.thirdwx\.qlogo\.cn\/.+\/mmopen\/.+ url reject
+^https?:\/\/.+dpa\.byteimg\.com\/.+ url reject
+^https:\/\/ld\.ppdai\.com\/v3\/loan\/ url reject-dict
+
+
+^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
+^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
+^https?:\/\/.+novelapp\.fqnovelvod\.com\/.+\/video\/.+ url reject
+^http:\/\/·+\.douyincdn\.com\/stage\/·+\.flv url reject
+^http:\/\/·+\.douyincdn\.com\/third\/·+\.flv url reject
+hostname = *byteimg.com,*.pangolin-sdk-toutiao.com,thirdwx.qlogo.cn,pull-flv-l26.douyincdn.com,pull-f3.douyincdn.com,*.douyincdn.com,ld.ppdai.com,112.132.217.186,*.pglstatp-toutiao.com,p9-webcast-sign.douyinpic.com,pull*.douyincdn.com,be-pack-sign.pglstatp-toutiao.com,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pglstatp-toutiao.com.*,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com,be-pack.pglstatp-toutiao.corejec,v6-novelfm.novelfmvod.com,
