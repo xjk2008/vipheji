@@ -17,7 +17,7 @@ host-wildcard, lf*-webcastcdn-tos.douyinstatic.com*, reject
 host-suffix, cdn-tos.bytescm.com, reject
 host, lf3-cdn-tos.bytescm.com, reject
 -host, tnc3-aliec2.zijieapi.com, reject
-host-wildcard, p*-novel.byteimg.com, reject
+-host-wildcard, p*-novel.byteimg.com, reject
 host-keyword, *.bytescm.com*, reject
 host, alpha.chuangyi.taobao.com, reject
 -host-wildcard, p*-novelfm-sign.novelfmpic.com, reject
