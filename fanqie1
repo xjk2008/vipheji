@@ -39,11 +39,11 @@
 ^https?:\/\/.+dpa\.byteimg\.com\/.+ url reject
 ^https?:\/\/.+\.365yg\.com\/.+\/video\/.+\/.+ url reject
 ^https:\/\/ld\.ppdai\.com\/v3\/loan\/ url reject-dict
-
+^http:\/\/p1-luckycatopen\.byteimg\.com\/tos-cn-i-gnrt7m25cu\/*.+\.image url reject-dict
 
 ^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
 ^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
 ^https?:\/\/.+novelapp\.fqnovelvod\.com\/.+\/video\/.+ url reject
 ^http:\/\/·+\.douyincdn\.com\/stage\/·+\.flv url reject
 ^http:\/\/·+\.douyincdn\.com\/third\/·+\.flv url reject
-hostname = *default.365yg.com,*byteimg.com,*.pangolin-sdk-toutiao.com,thirdwx.qlogo.cn,pull-flv-l26.douyincdn.com,pull-f3.douyincdn.com,*.douyincdn.com,ld.ppdai.com,112.132.217.186,*.pglstatp-toutiao.com,p9-webcast-sign.douyinpic.com,pull*.douyincdn.com,be-pack-sign.pglstatp-toutiao.com,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pglstatp-toutiao.com.*,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com,be-pack.pglstatp-toutiao.corejec,v6-novelfm.novelfmvod.com,
+hostname = *byteimg.com,*default.365yg.com,*byteimg.com,*.pangolin-sdk-toutiao.com,thirdwx.qlogo.cn,pull-flv-l26.douyincdn.com,pull-f3.douyincdn.com,*.douyincdn.com,ld.ppdai.com,112.132.217.186,*.pglstatp-toutiao.com,p9-webcast-sign.douyinpic.com,pull*.douyincdn.com,be-pack-sign.pglstatp-toutiao.com,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pglstatp-toutiao.com.*,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com,be-pack.pglstatp-toutiao.corejec,v6-novelfm.novelfmvod.com,
