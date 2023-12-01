@@ -27,8 +27,8 @@
 ^https?:\/\/.+novelfm\.novelfmvod\.com\/.+\/video\/tos\/cn\/tos-cn-ve-192\/.+ url reject
 #^http?:\/\/.+\.douyincdn\.com\/stage\/.+ url reject
 #^http?:\/\/pull-flv·+\.douyincdn\.com\/stage\/.+ url reject
-^http?:\/\/.+\.douyincdn\.com\/stage\/.+ url reject
-^http?:\/\/.+\.douyincdn\.com\/third\/.+ url reject
+#^http?:\/\/.+\.douyincdn\.com\/stage\/.+ url reject
+#^http?:\/\/.+\.douyincdn\.com\/third\/.+ url reject
 #^http?:\/\/pull-flv·+\.douyincdn\.com\/third\/.+\.+ url reject
 ^https?:\/\/.+pack\.pangolin-sdk-toutiao\.com\/union\/endcard\/.+ url reject
 ^https?:\/\/.+sign\.pglstatp-toutiao\.com\/web\.business\.image\/.+ url reject
