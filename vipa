@@ -1,5 +1,5 @@
 
-hostname = sdk.alibaba.com.ailbaba.me, p.du.163.com, newdrugs.dxy.cn,ap*.intsig.net, baimiao.uzero.cn,xluser-ssl.xunlei.com,testflight.apple.com,spclient.wg.spotify.com,*.wtzw.com,vira.llsapp.com, m.iqiyi.com, z1.m1907.cn, m.youku.com, m.v.qq.com, m.bilibili.com,duckduckgo.com
+hostname = sdk.alibaba.com.ailbaba.me, p.du.163.com, newdrugs.dxy.cn,ap*.intsig.ne,xluser-ssl.xunlei.com,testflight.apple.com,spclient.wg.spotify.com,*.wtzw.com, m.bilibili.com,duckduckgo.com
 
 
 # 大师兄影视去开屏广告     sdk.alibaba.com.ailbaba.me
@@ -10,9 +10,6 @@ hostname = sdk.alibaba.com.ailbaba.me, p.du.163.com, newdrugs.dxy.cn,ap*.intsig.
 # 扫描全能王-手机扫描仪+解锁VIP      ap*.intsig.net
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/smqnw.js
 
-# 白描-OCR 文字识别与文件扫描   解锁黄金会员    baimiao.uzero.cn
-^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/baimiao.js
-
 # 用药助手解锁专业版 (By Primovist)
 ^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body https://raw.githubusercontent.com/xjk2008/vipheji/main/yyzs.js
 
@@ -21,11 +18,6 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 
 # TestFlight账户管理脚本     testflight.apple.com
 ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
-
-
-# 七猫小说(2022.01.18).    *.wtzw.com
-# 柱：解锁终身会员，无任何下载、阅读、听书限制，去除所有广告（还有广告卸载重装）
-^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js
 
 流利说·阅读   vira.llsapp.com
 # 使用方法：会员时长到2030年，破解的标志是打开阅读️限制，不会提示会员才能看️️️，如果没有显示会员，剩余天数999。必须卸载重装！
