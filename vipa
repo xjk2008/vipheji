@@ -1,5 +1,5 @@
 
-hostname = p.du.163.com, newdrugs.dxy.cn,ap*.intsig.ne,xluser-ssl.xunlei.com,testflight.apple.com,spclient.wg.spotify.com,*.wtzw.com, m.bilibili.com,duckduckgo.com
+hostname = p.du.163.com, vira.llsapp.com,ap*.intsig.ne,testflight.apple.com,spclient.wg.spotify.com,*.wtzw.com, notability.com,duckduckgo.com
 
 
 
@@ -8,11 +8,6 @@ hostname = p.du.163.com, newdrugs.dxy.cn,ap*.intsig.ne,xluser-ssl.xunlei.com,tes
 # 扫描全能王-手机扫描仪+解锁VIP      ap*.intsig.net
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/smqnw.js
 
-# 用药助手解锁专业版 (By Primovist)
-^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body https://raw.githubusercontent.com/xjk2008/vipheji/main/yyzs.js
-
-# 迅雷不限速     xluser-ssl.xunlei.com
-https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xunlei.js
 
 # TestFlight账户管理脚本     testflight.apple.com
 ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
@@ -20,8 +15,6 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 流利说·阅读   vira.llsapp.com
 # 使用方法：会员时长到2030年，破解的标志是打开阅读️限制，不会提示会员才能看️️️，如果没有显示会员，剩余天数999。必须卸载重装！
 ^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$  url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/LiuLiShuo-YueDu.js
-
-# 视频去广告   m.iqiyi.com, z1.m1907.cn, m.youku.com, m.v.qq.com, m.bilibili.com
 
 
 #Notability解锁订阅
