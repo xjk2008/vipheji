@@ -814,13 +814,6 @@ http:\/\/analytics\.163\.com\/ntes url reject
 # 喜马拉雅_屏蔽ting_Ad
 ^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)? url reject
 # 喜马拉雅_屏蔽首页横幅_Ad
-^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/xmly_json.js
-# 喜马拉雅_屏蔽首页动态_Ad
-^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/xmly_json.js
-# 喜马拉雅_屏蔽Tab页滚动_Ad
-^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/xmly_json.js
-# 喜马拉雅_去除我的页面Ad_Tag
-^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/xmly_json.js
 
 # > 小红书
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js
@@ -879,18 +872,6 @@ http:\/\/analytics\.163\.com\/ntes url reject
 ^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new) url reject-img
 ^https?:\/\/[\s\S]*\/youku\/.*?\.mp4 url reject-img
 ^http:\/\/ems\.youku\.com\/imp\? url reject
-
-
-# > YouTube
-# 开启画中画,后台播放
-^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/account\/get_setting\?key ^POST url-and-header script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube.js
-# 首页 瀑布流,上传按钮,短视频
-^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|guide|reel\/reel_watch_sequence)\?key ^POST url-and-header script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube.js
-# 播放页 插播广告,贴片广告
-^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(next|player)\?key ^POST url-and-header script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube.js
-^https:\/\/[\w-]+\.googlevideo\.com\/initplayback\?.+&oad url reject-200
-# 搜索页
-^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/search\?key ^POST url-and-header script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube.js
 
 # > 有道词典
 ^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+adpublish url reject
