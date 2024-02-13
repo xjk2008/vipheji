@@ -1,10 +1,8 @@
 
-hostname = sdk.alibaba.com.ailbaba.me, p.du.163.com, newdrugs.dxy.cn,ap*.intsig.ne,xluser-ssl.xunlei.com,testflight.apple.com,spclient.wg.spotify.com,*.wtzw.com, m.bilibili.com,duckduckgo.com
+hostname = p.du.163.com, newdrugs.dxy.cn,ap*.intsig.ne,xluser-ssl.xunlei.com,testflight.apple.com,spclient.wg.spotify.com,*.wtzw.com, m.bilibili.com,duckduckgo.com
 
 
-# 大师兄影视去开屏广告     sdk.alibaba.com.ailbaba.me
-^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v3\/top_notice? url reject
-^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v3\/advert.position.[^2](?<=position..) url reject
+
 #网易蜗牛读书+解锁VIP     p.du.163.com
 ^https:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/yywnds.js
 # 扫描全能王-手机扫描仪+解锁VIP      ap*.intsig.net
@@ -210,7 +208,3 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 
 
 # ================ Safari全能搜索 结束 ================
-# 什么值得买(By blackmatrix7)
-^https:\/\/homepage-api.smzdm.com\/home url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-^https:\/\/haojia-api.smzdm.com\/home\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-^https:\/\/article-api.smzdm.com\/article\/index_home_page url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
